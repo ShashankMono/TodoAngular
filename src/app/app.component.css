@@ -1,0 +1,31 @@
+
+.listItem{
+    width: 50%;
+    display: flex;
+    list-style-type:none;
+    margin: 5px;
+}
+.listItem button{
+    cursor: pointer;
+    padding: 5px 5px;
+    margin-left: 10px ;
+}
+ul{
+    width: 100%;
+}
+.todoForm{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border: 2px black solid;
+    width: max-content;
+    padding: 10px;
+    box-shadow:20px 20px 15px gray;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
+}
